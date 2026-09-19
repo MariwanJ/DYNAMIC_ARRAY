@@ -1,0 +1,48 @@
+```gitignore
+# Build output
+/bin/
+/bin-ini/
+/build/
+
+# Premake generated files
+*.make
+Makefile
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sdf
+*.opensdf
+*.VC.db
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# C/C++ compiler files
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.exe
+*.pdb
+*.ilk
+*.idb
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+```
